@@ -1,0 +1,24 @@
+{
+    "name": "jigius/acc-core-pdata-examples",
+    "description": "An trivial examples of using acc-core-pdata library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jigius",
+            "email": "jigius@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.0",
+        "robmorgan/phinx": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acc\\Core\\PersistentData\\Examples\\": "src/"
+        }
+    },
+    "require-dev": {
+    }
+}
