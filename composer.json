@@ -1,7 +1,6 @@
 {
     "name": "jigius/acc-core-pdata-examples",
-
-    "description": "An trivial examples of using acc-core-pdata library",
+    "description": "Trivial examples of using acc-core-pdata library",
     "type": "library",
     "license": "MIT",
     "authors": [
