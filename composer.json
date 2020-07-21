@@ -13,7 +13,7 @@
     "require": {
         "php": ">=7.4.0",
         "ext-mbstring": "*",
-        "robmorgan/phinx": "dev-master",
+        "robmorgan/phinx": ">=0.8.0",
         "jigius/acc-core-pdata": "dev-master"
 
     },
