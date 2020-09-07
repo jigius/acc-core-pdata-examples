@@ -150,8 +150,7 @@ final class Entity implements EntityInterface
      */
     private function with(string $k, $v): EntityInterface
     {
-        $changed = isset($this->i[$k]) && $this->i[$k] !== $v || $v !== null || !in_array($k, $this->i);
-        if (!$changed) {
+        if (!((isset($this->i[$k]) xor isset($v)) || isset($v) && $this->i[$k] != $v)) {
             return $this;
         }
         $obj = $this->withAttr('dirty', true);
